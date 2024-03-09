@@ -14,7 +14,7 @@ docker pull <name_of_the_image>
 docker build -t <image_name>
 ```
 > [!NOTE]
-> Here '.' means current folder and '-t' is used to tag the image id. Both are optional.
+> Here ```.``` (optional) means current folder and ```-t``` (optional) is used to tag the image id. Both are optional.
 
 3.  List all local images
 ```markdown
