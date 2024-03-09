@@ -1,6 +1,7 @@
 # Docker_Essential_Cheats
-![image](https://github.com/DonAlahakoon/Docker_Cheats/assets/89693545/b14e0085-370c-416c-95c6-fa733cddebad)
-
+<p align="center">
+<image src="https://github.com/DonAlahakoon/Docker_Cheats/assets/89693545/b14e0085-370c-416c-95c6-fa733cddebad" width=500 />
+</p>
 1. Pulling an image from the repository
 
 ```markdown
@@ -23,5 +24,21 @@ docker ps
 ```markdown
 docker ps -a 
 ```
-6. 
-7. 
+6. Pings application
+```markdown
+docker localhost
+```
+7. Stops one or more running containers
+```markdown
+docker stop
+```
+> [!TIP]
+> To stop all running containers
+> ```markdown
+> docker stop $(docker ps -q)
+> ```
+8. To see how much memeory using by the containers
+```markdown
+docker stats 
+```
+9. 
