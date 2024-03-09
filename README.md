@@ -37,8 +37,15 @@ docker stop
 > ```markdown
 > docker stop $(docker ps -q)
 > ```
-8. To see how much memeory using by the containers
+8.To remove a container
+```markdown
+docker container rm 
+```
+10.  To see how much memeory using by the containers
 ```markdown
 docker stats 
 ```
-9. 
+11. Creates a tag for a target image that refers to a source image
+```markdown
+docker tag
+```
