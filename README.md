@@ -34,7 +34,7 @@ docker push <username>/<image_name>
 ```
 7.  Running a container
 ```markdown
-docker run -t -d -p <host_port>:<container_port> --name <name_of_the_container> 
+docker run -t -d -p <host_port>:<container_port> --name <name_of_the_container> <image_name>
 ```
 > [!IMPORTANT]
 > ```-t``` (optional) is used to tag,<br>
