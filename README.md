@@ -38,7 +38,7 @@ docker run -t -d -p <host_port>:<container_port> --name <name_of_the_container> 
 ```
 > [!IMPORTANT]
 > ```-t``` (optional) is used to tag,<br>
-> ```-d``` (optional) to run in the background not to show log details,<br>
+> ```-d``` (optional) means "detached mode", used to run the container in the background ( not showing log details) therefor able to use terminal for other commands,<br>
 > ```-p <host_port>:<container_port>``` (optional) binding container port to the localhost.
 
 8. To open the shell inside the running container
