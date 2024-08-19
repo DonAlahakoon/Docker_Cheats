@@ -37,9 +37,9 @@ docker push <username>/<image_name>
 docker run -t -d -p <host_port>:<container_port> --name <name_of_the_container> <image_name>
 ```
 > [!IMPORTANT]
-> ```-t``` (optional) is used to tag,<br>
-> ```-d``` (optional) to run in the background not to show log details,<br>
-> ```-p <host_port>:<container_port>``` (optional) binding container port to the localhost.
+> ```-t``` tag (optional) is used to tag,<br>
+> ```-d``` detach (optional) to run in the background not to show log details and terminal detach from running container,<br>
+> ```-p <host_port>:<container_port>``` publish (optional) binding container port to the localhost.
 
 8. To open the shell inside the running container
 ```markdown
