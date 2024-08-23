@@ -72,7 +72,7 @@ docker stop
 docker container rm 
 ```
 
-14.  To see how much memeory using by the containers
+14.  To see how much memory using by the containers
 ```markdown
 docker stats 
 ```
