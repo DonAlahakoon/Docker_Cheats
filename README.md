@@ -11,7 +11,7 @@ docker pull <name_of_the_image>
 
 2. To build an image from a Dockerfile
 ```markdown
-docker build -t <image_name>
+docker build -t <image_name> .
 ```
 > [!NOTE]
 > Here ```.``` (optional) means current folder and ```-t``` (optional) is used to tag the image id. Both are optional.
