@@ -41,6 +41,9 @@ docker run -t -d -p <host_port>:<container_port> --name <name_of_the_container> 
 > ```-d``` detach (optional) to run in the background not to show log details and terminal detach from running container,<br>
 > ```-p <host_port>:<container_port>``` publish (optional) binding container port to the localhost.
 
+> [!NOTE]
+> To start an existing container (previously ran container) don't use above command instead use ``` docker start <container name> ```
+
 8. To open the shell inside the running container
 ```markdown
 docker exec -it <container_name> sh
